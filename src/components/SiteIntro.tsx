@@ -16,7 +16,7 @@ const SiteIntro = () => {
 
             {user ? (
                 <>
-                    <div className="font-bold">Account Information Display</div>
+                    <div className="font-bold mt-2">Account Information Display</div>
                     <div className="flex justify-center py-2">
                         <div className="flex-col text-right content-center">
                             <img src={user.picture} />

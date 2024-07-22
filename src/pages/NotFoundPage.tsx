@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
+import Hero from "../components/Hero";
 
 const NotFoundPage = () => {
     return (
       <>
-        <h1>404 Not Found</h1>
-        <h1>This page was not found.</h1>
-        <Link 
-          to='/'
-          className="text-white bg-red-700 hover:bg-red-900 rounded px-3 py-2 mt-4"
-        > Go Back </Link>
+        <Hero title="oAuth Stub" subtitle="An example of Vite, React, and oAuth"></Hero>
+        <div className="text-base text-center py-5">
+          <div className="text-6xl font-bold"><span className="text-red-600">404</span> - Not Found</div>
+          <div className="min-h-64 content-center">
+            <div className="m-3 text-xl">This page was not found.</div>
+            <Link 
+              to='/'
+              className="font-bold py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-700"
+            > Go Back </Link>
+          </div>
+        </div>
       </>
     )
   }
