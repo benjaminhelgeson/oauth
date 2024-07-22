@@ -7,7 +7,7 @@ const SiteIntro = () => {
     const { user } = useAuth0();
 
     return (
-        <div className="text-base text-center py-5">
+        <div className="text-base text-center pb-5 h-auto bg-white">
             <div className="flex justify-center">
                 <div className="p-1 mx-5 max-w-3xl">This is created using Vite, React, React-oAuth, Tailwind, and Typescript. It's a stub for implementing
                 oAuth in future sites. It serves as a personal project to simply get more familiar with oAuth and using it 

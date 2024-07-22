@@ -21,7 +21,7 @@ const App = () => {
 
   if (isLoading) {
     return (
-      <div className="page-layout">
+      <div className="page-layout flex-1">
         <PageLoader />
       </div>
     );

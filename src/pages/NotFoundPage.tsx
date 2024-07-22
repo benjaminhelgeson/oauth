@@ -5,7 +5,7 @@ const NotFoundPage = () => {
     return (
       <>
         <Hero title="oAuth Stub" subtitle="An example of Vite, React, and oAuth"></Hero>
-        <div className="text-base text-center py-5">
+        <div className="text-base text-center pb-5 bg-white">
           <div className="text-6xl font-bold"><span className="text-red-600">404</span> - Not Found</div>
           <div className="min-h-64 content-center">
             <div className="m-3 text-xl">This page was not found.</div>

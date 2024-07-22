@@ -5,7 +5,7 @@ const AboutPage = () => {
     var gitHubRepo = "https://github.com/benjaminhelgeson/oauth";
 
     return (
-      <div className="text-base text-center py-5">
+      <div className="text-base text-center bg-white pb-5">
         <Hero title="oAuth Stub" subtitle="An example of Vite, React, and oAuth"></Hero>
         <>This was done simply to get familiar with oAuth and it's implementation in Vite.js. It uses the following technologies:</>
         <ul>
